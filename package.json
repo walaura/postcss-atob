@@ -1,0 +1,35 @@
+{
+  "name": "postcss-atob",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to encode/decode b64",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "atob"
+  ],
+  "author": "Laura <laura.gonzalez@guardian.co.uk>",
+  "license": "MIT",
+  "repository": "walaura/postcss-atob",
+  "bugs": {
+    "url": "https://github.com/walaura/postcss-atob/issues"
+  },
+  "homepage": "https://github.com/walaura/postcss-atob",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
