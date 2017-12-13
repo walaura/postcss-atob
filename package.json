@@ -1,6 +1,6 @@
 {
   "name": "postcss-atob",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin to encode/decode b64",
   "keywords": [
     "postcss",
