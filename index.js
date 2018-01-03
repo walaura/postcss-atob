@@ -13,9 +13,7 @@ module.exports = postcss.plugin('postcss-atob', function (opts) {
       decl.value = reduceFunctionCall(decl.value, 'atob', (body) =>
         new Buffer(body, 'base64').toString('ascii')
       )
-      decl.value = reduceFunctionCall(decl.value, 'cdn', (body) =>
-        new Buffer(body.split('').map(char => String.fromCharCode(char.charCodeAt(0) - 1)).reverse().join(''), 'base64').toString('ascii')
-      )
+
     })
   };
 

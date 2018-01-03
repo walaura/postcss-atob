@@ -1,6 +1,6 @@
 {
   "name": "postcss-atob",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "PostCSS plugin to encode/decode b64",
   "keywords": [
     "postcss",
@@ -8,7 +8,7 @@
     "postcss-plugin",
     "atob"
   ],
-  "author": "Laura <laura.gonzalez@guardian.co.uk>",
+  "author": "Laura gonzalez <laura.gonzalez@guardian.co.uk>",
   "license": "MIT",
   "repository": "walaura/postcss-atob",
   "bugs": {
