@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/walaura/postcss-atob",
   "dependencies": {
-    "postcss": "^6.0.1",
+    "postcss": "^8.4.31",
     "reduce-function-call": "^1.0.2"
   },
   "devDependencies": {
